@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Prova01</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Pedras preciosas</string>
+    <string name="nav_header_subtitle">pedras.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuração</string>
+
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_elementos">Elementos</string>
+    <string name="menu_separacao">Separação</string>
+    <string name="menu_finalizacao">Finalização</string>
+</resources>

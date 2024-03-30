@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.example.prova01.ui.inicio.InicioFragment"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_elementos"
+        android:name="com.example.prova01.ui.elementos.ElementosFragment"
+        android:label="@string/menu_elementos"
+        tools:layout="@layout/fragment_elementos" />
+
+    <fragment
+        android:id="@+id/nav_separacao"
+        android:name="com.example.prova01.ui.separacao.SeparacaoFragment"
+        android:label="@string/menu_separacao"
+        tools:layout="@layout/fragment_separacao" />
+
+    <fragment
+        android:id="@+id/nav_finalizacao"
+        android:name="com.example.prova01.ui.finalizacao.FinalizacaoFragment"
+        android:label="@string/menu_finalizacao"
+        tools:layout="@layout/fragment_finalizacao" />
+</navigation>
